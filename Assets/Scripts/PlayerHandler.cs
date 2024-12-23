@@ -88,10 +88,5 @@ public class PlayerHandler : MonoBehaviour
             jumpCount = 0;
             animator.SetBool("jumping", false);
         }
-
-        if (collision.gameObject.CompareTag("end"))
-        {
-            SceneManager.LoadScene("S2");
-        }
     }
 }

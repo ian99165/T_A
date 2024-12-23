@@ -15,8 +15,9 @@ public class ButtonClicked : MonoBehaviour
     [SerializeField] private Button _button_Win_Exit;
     
     public GameObject start_canvas;
-    public GameObject playing_canvas;
+    public GameObject esc_canvas;
     public GameObject rule_canvas;
+    public GameObject player_canvas;
 
     void Start()
     {
@@ -92,16 +93,17 @@ public class ButtonClicked : MonoBehaviour
     
     public void Open_Playing_Canvas()
     {
-        playing_canvas.SetActive(true);
+        esc_canvas.SetActive(true);
     }
     
     public void Close_Start_Canvas()
     {
         start_canvas.SetActive(false);
+        player_canvas.SetActive(true);
     }
 
     public void Close_Playing_Canvas()
     {
-        playing_canvas.SetActive(false);
+        esc_canvas.SetActive(false);
     }
 }

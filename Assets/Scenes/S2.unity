@@ -1156,8 +1156,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 44058343e515d5b459b678afb25274fb, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1407,8 +1407,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 44058343e515d5b459b678afb25274fb, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1664,13 +1664,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button_Start: {fileID: 1551917562}
-  _button_back: {fileID: 1551917562}
   _button_Exit: {fileID: 1551917562}
+  _button_Rule: {fileID: 1551917562}
+  _button_rule_X: {fileID: 1551917562}
+  _button_back: {fileID: 1551917562}
   _button_Exit_Game: {fileID: 1551917562}
   _button_Home: {fileID: 1369121888}
   _button_Win_Exit: {fileID: 1547474262}
   start_canvas: {fileID: 1551917558}
-  playing_canvas: {fileID: 1551917558}
+  esc_canvas: {fileID: 1551917558}
+  rule_canvas: {fileID: 1551917558}
+  player_canvas: {fileID: 1551917558}
 --- !u!1 &1751424871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,7 +1732,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Home
+  m_text: Again
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
